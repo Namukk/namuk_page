@@ -1,11 +1,10 @@
 import React from "react";
+import AppRouter from "./components/Router";
 
 function App() {
   return (
     <div className="App">
-      <p>Namuk Page</p>
-      <p>Log in</p>
-      <p>Log out </p>
+      <AppRouter />
     </div>
   );
 }
