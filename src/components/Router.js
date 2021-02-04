@@ -7,6 +7,12 @@ const AppRouter = () => {
       <Route exact path="/">
         Home
       </Route>
+      <Route exact path="/profile">
+        Profile
+      </Route>
+      <Route exact path="/project">
+        Projects
+      </Route>
     </Router>
   );
 };
