@@ -10,7 +10,7 @@ const AppRouter = () => {
       <Route exact path="/profile">
         Profile
       </Route>
-      <Route exact path="/project">
+      <Route exact path="/projects">
         Projects
       </Route>
     </Router>
