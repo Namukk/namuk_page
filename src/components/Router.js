@@ -9,11 +9,17 @@ const AppRouter = () => {
         Home
         <Navigation />
       </Route>
-      <Route exact path="/profile">
-        Profile
+      <Route exact path="/about">
+        About me
+        <Navigation />
       </Route>
       <Route exact path="/projects">
         Projects
+        <Navigation />
+      </Route>
+      <Route exact path="/learning">
+        What I'm Learning
+        <Navigation />
       </Route>
     </Router>
   );
