@@ -1,5 +1,6 @@
 import React from "react";
 import { HashRouter as Router, Route } from "react-router-dom";
+import AppProfile from "../routes/Profile";
 import Navigation from "./Navigation";
 
 const AppRouter = () => {
@@ -9,9 +10,9 @@ const AppRouter = () => {
         Home
         <Navigation />
       </Route>
-      <Route exact path="/about">
-        About me
+      <Route exact path="/profile">
         <Navigation />
+        <AppProfile />
       </Route>
       <Route exact path="/projects">
         Projects

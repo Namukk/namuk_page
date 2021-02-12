@@ -12,7 +12,7 @@ const Navigation = () => {
       <span>남욱's page</span>
       <List>
         <li>
-          <Link to="/about">About me</Link>
+          <Link to="/profile">About me</Link>
         </li>
         <li>
           <Link to="/projects">Projects</Link>
