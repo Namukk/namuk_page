@@ -1,6 +1,7 @@
 import React from "react";
 import { HashRouter as Router, Route } from "react-router-dom";
 import AppProfile from "../routes/Profile";
+import AppHeader from "./Header";
 import Navigation from "./Navigation";
 
 const AppRouter = () => {
@@ -8,6 +9,7 @@ const AppRouter = () => {
     <Router>
       <Route exact path="/">
         Home
+        <AppHeader />
         <Navigation />
       </Route>
       <Route exact path="/profile">
