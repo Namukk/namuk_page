@@ -4,7 +4,7 @@ import Navigation from "../components/Navigation";
 const Wil = () => {
   return (
     <div>
-      <Navigation />
+      <a href="https://github.com/Namukk">Github</a>
     </div>
   );
 };
