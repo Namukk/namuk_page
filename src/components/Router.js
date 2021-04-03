@@ -21,6 +21,7 @@ const AppRouter = () => {
       <Route exact path="/projects">
         Projects
         <Navigation />
+        <AppRouter />
         <AppProjects />
       </Route>
       <Route exact path="/learning">
