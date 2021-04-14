@@ -1,6 +1,11 @@
 import React from "react";
-import Navigation from "../components/Navigation";
 
-const Wil = () => {};
+const Wil = () => {
+  return (
+    <div>
+      <span>code</span>
+    </div>
+  );
+};
 
 export default Wil;

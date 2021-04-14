@@ -1,8 +1,9 @@
 import React from "react";
-import { HashRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import AppProfile from "../routes/Profile";
 import AppProjects from "../routes/Projects";
 import Wil from "../routes/Wil";
+import AppFooter from "./Footer";
 import AppHeader from "./Header";
 import Navigation from "./Navigation";
 
@@ -10,25 +11,25 @@ const AppRouter = () => {
   return (
     <Router>
       <Route exact path="/">
+        <Navigation />
         Home
         <AppHeader />
-        <Navigation />
       </Route>
-      <Route exact path="/profile">
+      <Route path="/profile">
         <Navigation />
         <AppProfile />
       </Route>
-      <Route exact path="/projects">
-        Projects
+      <Route path="/projects">
         <Navigation />
-        <AppRouter />
+        Projects
         <AppProjects />
       </Route>
-      <Route exact path="/learning">
+      <Route path="/learning">
+        <Navigation />
         What I'm Learning
         <Wil />
-        <Navigation />
       </Route>
+      <AppFooter />
     </Router>
   );
 };

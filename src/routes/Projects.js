@@ -5,7 +5,6 @@ const AppProjects = () => {
     <div>
       <div>
         <a href="https://github.com/Namukk/nomflix">Nomflix</a>
-        <a href="https://github.com/Namukk/nomflix">Nomflix</a>
       </div>
     </div>
   );
