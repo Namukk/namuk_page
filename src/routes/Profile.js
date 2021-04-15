@@ -19,7 +19,7 @@ const SocialList = styled.div`
 const AppProfile = () => {
   return (
     <>
-      <Intro>저는 유남욱입니다.</Intro>
+      <Intro>저는 ...</Intro>
       <Social>
         <SocialList>
           <a href="https://github.com/Namukk">Github</a>
