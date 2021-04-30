@@ -1,9 +1,14 @@
 import React from "react";
+import styled from "styled-components";
+
+const Span = styled.span`
+  color: red;
+`;
 
 const AppHeader = () => {
   return (
     <div>
-      <span>Header</span>
+      <Span>Header span</Span>
     </div>
   );
 };
