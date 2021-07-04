@@ -8,7 +8,7 @@ const Span = styled.span`
 const AppHeader = () => {
   return (
     <div>
-      <Span>Header Span Error</Span>
+      <Span>Header Span</Span>
     </div>
   );
 };
